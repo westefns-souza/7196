@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QXEySBYIhjP2gPBIQKXJJXtI97jtLLbJQwBCSi3xTu7D0Wlk+X9rR2rGirGIckEwqv7N5G7T4nQPZI3sxTU83w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\weste\\Documents\\Desenvolvimento\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\weste\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\weste\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
