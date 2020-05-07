@@ -27,7 +27,6 @@ namespace Todo.Domain.Commands
                     .Requires()
                     .HasMinLen(Title, 3, "Title", "Por favor, descreva melhor esta tarefa!")
                     .HasMinLen(User, 3, "User", "Usuário inválido!")
-                );
             );
         }
     }
