@@ -10,7 +10,7 @@ namespace Todo.Domain.Handlers
     public class TodoHandler : 
         Notifiable,
         IHandler<CreateTodoCommand>,
-        IHandler<UpdateTodoCommad>,
+        IHandler<UpdateTodoCommand>,
         IHandler<MarkTodoAsDoneCommand>,
         IHandler<MarkTodoAsUndoneCommand>
     {
@@ -37,7 +37,7 @@ namespace Todo.Domain.Handlers
             return new GenericCommandResult(true, "Tarefa salva!", todo);
         }
 
-        public ICommandResult Handle(UpdateTodoCommad command)
+        public ICommandResult Handle(UpdateTodoCommand command)
         {
             command.Validate();
 

@@ -5,11 +5,11 @@ using Todo.Domain.Commands.Contracts;
 
 namespace Todo.Domain.Commands
 {
-    public class UpdateTodoCommad : Notifiable, ICommand
+    public class UpdateTodoCommand : Notifiable, ICommand
     {
-        public UpdateTodoCommad() { }
+        public UpdateTodoCommand() { }
 
-        public UpdateTodoCommad(Guid id, string title, string user)
+        public UpdateTodoCommand(Guid id, string title, string user)
         {
             Id = id;
             Title = title;
