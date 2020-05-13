@@ -35,7 +35,7 @@ namespace Todo.Api.Controllers
             [FromServices]ITodoRepository repository
         )
         {
-            return repository.GetAllDone("westefns");
+            return repository.GetAllUndone("westefns");
         }
 
         [Route("done/today")]
